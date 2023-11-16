@@ -20,6 +20,7 @@ namespace CarLotSimulator
             CarLot myLot = new CarLot();
 
             Car car1 = new Car();
+            Console.WriteLine($"Cars in lot: {CarLot.numberOfCars}");
             car1.Make = "Acura";
             car1.Model = "Civic";
             car1.Year = 2005;
@@ -36,8 +37,10 @@ namespace CarLotSimulator
                 HonkNoise = "Phasers firing",
                 IsDriveable = true //Oh it does more than "drive" lol
             };
+            Console.WriteLine($"Cars in lot: {CarLot.numberOfCars}");
             myLot.Cars.Add(car2);
             Car car3 = new Car("Chrysler", "Concorde", 1998, "Reeeenenenener", "HOWDY!", true); //ol reliable :)
+            Console.WriteLine($"Cars in lot: {CarLot.numberOfCars}");
             myLot.Cars.Add(car3);
 
             Console.WriteLine($"This is the {car1.Model} {car1.Make}. Behold its mighty sounds!");
