@@ -1,0 +1,1 @@
+Hi! This project was made to practice creating classes in C#. A Car class and CarLot class were created, and in the main method we call the Car constructor to make three cars, which are then added to the list of cars in the CarLot object. Information about each car is then printed to the console.
